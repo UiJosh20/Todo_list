@@ -1,0 +1,37 @@
+body{
+  background-image: linear-gradient(rgba(20,30,20,0.3),rgba(20,30,20,0.3)), url(image/wooden-floor-background.jpg);
+  color: white !important;
+  overflow-x: hidden;
+}
+.rust{
+  gap: 30px !important;
+}
+
+.mask{
+ padding: 30px 300px !important;
+ position: fixed;
+ top: 400px;
+}
+.limbo{
+  margin-top: 10px;
+}
+
+
+@media screen and (max-width: 475px) {
+
+  .mask{
+    padding: 20px !important;
+    position: fixed;
+    top: 570px;
+   }
+
+   .limbo{
+    position: fixed;
+    bottom: 100px;
+   }
+
+   .limbo>img{
+    width: 30px;
+    height: 30px;
+   }
+}
