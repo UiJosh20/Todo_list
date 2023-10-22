@@ -1,8 +1,10 @@
+
 var itemArray = [];
 var wrong = "./sound/wrong.wav"
 var pass = "./sound/bonus.wav"
 var songIn = new Audio(pass)
 var songOn = new Audio(wrong)
+
     function check(){
       var vale = collectValue.value;
       
